@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <style>
+        div{
+            border: 2px solid;
+            width: 380px;
+            height: 200px;
+            text-align: center;
+            margin-left: 600px;
+            
+            
+        }
+        #h1{
+            text-align: center;
+            font-size: 50px;
+        }
+
+        button{
+            cursor: pointer;
+            border: 2px solid;
+            font-size: 25px;
+            padding:5px;
+            margin-left: 6px;
+        }
+        h2{
+            margin-left: 718px;
+            font-size:37px;
+        }
+        #start:hover{
+            background-color:greenyellow;
+        }
+        #stop:hover{
+            background-color: red;
+        }
+        #reset:hover{
+            background-color: yellow;
+        }
+    </style>
+    <h2>TIMER⏰</h2>
+    <div>
+
+        
+     <h1 id="h1"></h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <button id="reset">Reset</button>
+
+    </div>
+   
+   <audio src="./alarm-clock-90867.mp3" id="music"></audio>
+
+    <script src="./timer.js" ></script>
+</body>
+</html>
